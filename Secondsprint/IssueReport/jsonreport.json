@@ -1,0 +1,163 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Customization",
+        "description": "",
+        "id": "user-can-custimze-the-item;customization",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13629956800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "CustomizationSD.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 434079200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Navigate to login page",
+            "match": {
+              "location": "CustomizationSD.user_Navigate_to_login_page1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 517215600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the valid number and password",
+            "match": {
+              "location": "CustomizationSD.user_enters_the_valid_number_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3159367100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be logged in",
+            "match": {
+              "location": "CustomizationSD.user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7785087700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user added an item",
+            "match": {
+              "location": "CustomizationSD.user_added_an_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3002290000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Customization chart should be displayed",
+            "match": {
+              "location": "CustomizationSD.customization_chart_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10373247900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user select an item and adds to cart",
+            "match": {
+              "location": "CustomizationSD.user_select_an_item_and_adds_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3317891100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "message should be displayed as product added",
+            "match": {
+              "location": "CustomizationSD.message_should_be_displayed_as_product_added()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3190540600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user increase the quantityof item",
+            "match": {
+              "location": "CustomizationSD.user_increase_the_quantityof_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13268590700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user get an alert for type of customization",
+            "match": {
+              "location": "CustomizationSD.user_get_an_alert_for_type_of_customization()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3014713800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user decrease the quantity of item",
+            "match": {
+              "location": "CustomizationSD.user_decrease_the_quantity_of_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user gets an alert for procceding cart cancel",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "user can custimze the item",
+    "description": "",
+    "id": "user-can-custimze-the-item",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Grill.feature"
+  }
+]

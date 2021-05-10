@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="61.69298">
+<testcase classname="user can custimze the item" name="Customization" time="61.69298">
+<skipped><![CDATA[Given user is on the homepage...............................................passed
+When user Navigate to login page............................................passed
+And user enters the valid number and password...............................passed
+Then user should be logged in...............................................passed
+When user added an item.....................................................passed
+Then Customization chart should be displayed................................passed
+And user select an item and adds to cart....................................passed
+Then message should be displayed as product added...........................passed
+When user increase the quantityof item......................................passed
+Then user get an alert for type of customization............................passed
+When user decrease the quantity of item.....................................passed
+Then user gets an alert for procceding cart cancel..........................undefined
+]]></skipped>
+</testcase>
+</testsuite>
